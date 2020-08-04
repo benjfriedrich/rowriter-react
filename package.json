@@ -1,6 +1,6 @@
 {
   "name": "rowriter-react",
-  "version": "0.4.0",
+  "version": "0.5.1",
   "description": "A react component that makes nicely proportioned rows of components.",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,11 @@
     "styled-jsx": ">= 3.x.x"
   },
   "dependencies": {
-    "rowriter": "^1.0.1"
+    "rowriter": "^1.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-core": "^6.26.3",
     "babel-preset-react": "^6.24.1",

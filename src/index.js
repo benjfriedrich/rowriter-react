@@ -27,13 +27,15 @@ const DefaultRow = (props) => {
 
 }
 
-const RoWrite = ({className, list, maxWidth, rowComponent}) => {
+const RoWrite = ({className, list, maxWidth, rowComponent, setWidth}) => {
 
     const width = maxWidth
 
     const roList = RoWriter(list, width)
 
     const length = roList[0].length
+
+    typeof setWidth === 'function' ? setWidth(length) : null
 
     const Row = rowComponent || DefaultRow
 
